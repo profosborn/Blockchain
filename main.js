@@ -8,7 +8,7 @@ class Block{
         this.timestamp = timestamp;
         this.data = data;
         this.previousHash = previousHash;
-        this.hash = '';
+        this.hash = this.calculateHash;
     }
 
     // Calculate the Hash of blocks
